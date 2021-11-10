@@ -7,6 +7,7 @@ import Portfolio from "./Components/portfolio/Portfolio";
 import Works from "./Components/works/Works";
 import Testimonials from "./Components/testimonials/Testimonials";
 import Contact from "./Components/contact/Contact";
+import Menu from "./Components/menu/Menu";
 
 // CSS File
 import "./app.scss";
@@ -16,6 +17,7 @@ function App() {
   return (
     <div className="app">
      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+     <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
      <div className="sections">
        <Intro />
        <Portfolio />
