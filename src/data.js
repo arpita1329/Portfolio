@@ -3,27 +3,27 @@ export const featuredPortfolio = [
         id: 1,
         title: "Zomato - Home Landing Page",
         img: "assets/zomato.png",
+        link: "https://zomato-home-page.vercel.app/"
     },
     {
         id: 2,
         title: "Book management API",
-        img: "assets/zomato.png",
+        img: "assets/book_api.jpg",
+        link: "https://github.com/arpita1329/Book-Management-API"
     },
     {
         id: 3,
         title: "Tasky - To Do App",
-        img: "assets/zomato.png",
+        img: "assets/tasky.jpg",
+        link: "https://tasky-lyart.vercel.app/"
     },
     {
         id: 4,
         title: "Book my Show - Clone",
-        img: "assets/zomato.png",
+        img: "assets/book_my_show.jpg",
+        link: "https://book-my-show-app.vercel.app/"
     },
-    {
-        id: 5,
-        title: "Zomato clone",
-        img: "assets/zomato.png",
-    },
+    
 ]
 
 export const webPortfolio = [
@@ -32,108 +32,35 @@ export const webPortfolio = [
         title: "Zomato - Home Landing Page",
         img: "assets/zomato.png",
     },
-    {
-        id: 2,
-        title: "Book management API",
-        img: "assets/zomato.png",
-    },
-    {
-        id: 3,
-        title: "Tasky - To Do App",
-        img: "assets/zomato.png",
-    },
-    {
-        id: 4,
-        title: "Book my Show - Clone",
-        img: "assets/zomato.png",
-    },
-    {
-        id: 5,
-        title: "Zomato clone",
-        img: "assets/zomato.png",
-    },
+    
 ]
 
 export const mobilePortfolio = [
     {
         id: 1,
-        title: "Zomato - Home Landing Page",
-        img: "assets/zomato.png",
-    },
-    {
-        id: 2,
         title: "Book management API",
-        img: "assets/zomato.png",
+        img: "assets/book_api.jpg",
+        link: "https://github.com/arpita1329/Book-Management-API"
     },
-    {
-        id: 3,
-        title: "Tasky - To Do App",
-        img: "assets/zomato.png",
-    },
-    {
-        id: 4,
-        title: "Book my Show - Clone",
-        img: "assets/zomato.png",
-    },
-    {
-        id: 5,
-        title: "Zomato clone",
-        img: "assets/zomato.png",
-    },
+    
 ]
 
 export const designPortfolio = [
     {
         id: 1,
-        title: "Zomato - Home Landing Page",
-        img: "assets/zomato.png",
-    },
-    {
-        id: 2,
-        title: "Book management API",
-        img: "assets/zomato.png",
-    },
-    {
-        id: 3,
         title: "Tasky - To Do App",
-        img: "assets/zomato.png",
+        img: "assets/tasky.jpg",
+        link: "https://tasky-lyart.vercel.app/"
     },
-    {
-        id: 4,
-        title: "Book my Show - Clone",
-        img: "assets/zomato.png",
-    },
-    {
-        id: 5,
-        title: "Zomato clone",
-        img: "assets/zomato.png",
-    },
+    
 ]
 
 export const contentPortfolio = [
     {
         id: 1,
-        title: "Zomato - Home Landing Page",
-        img: "assets/zomato.png",
-    },
-    {
-        id: 2,
-        title: "Book management API",
-        img: "assets/zomato.png",
-    },
-    {
-        id: 3,
-        title: "Tasky - To Do App",
-        img: "assets/zomato.png",
-    },
-    {
-        id: 4,
         title: "Book my Show - Clone",
-        img: "assets/zomato.png",
+        img: "assets/book_my_show.jpg",
+        link: "https://book-my-show-app.vercel.app/"
     },
-    {
-        id: 5,
-        title: "Zomato clone",
-        img: "assets/zomato.png",
-    },
+    
 ]

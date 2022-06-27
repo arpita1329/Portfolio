@@ -8,7 +8,8 @@
 
     h1{
         font-size: 50px;
-
+        overflow: hidden;
+        
         @include mobile{
             font-size: 30px;
         }
@@ -19,6 +20,7 @@
         list-style: none;
         display: flex;
 
+        
         @include mobile{
             margin: 10px 0px;
             flex-wrap: wrap;
@@ -31,6 +33,7 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+        overflow: hidden;
 
         @include mobile{
             width: 100%;

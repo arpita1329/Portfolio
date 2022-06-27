@@ -4,12 +4,13 @@ import { ChevronLeft, ChevronRight} from "@material-ui/icons";
 
 export default function Works() {
     const [ currentSlide, setCurrentSlide ] = useState(0);
+
     const data = [
         {
             id: "1",
-            icon: "assets/mobile.png",
-            title: "Web Design",
-            desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, debitis quasi temporibus fuga repellendus quos recusandae, odio laboriosam quam commodi fugit tempore porro ipsa voluptatum est provident et reiciendis cumque!",
+            icon: "assets/degree.png",
+            title: "Education",
+            desc: "Bachelor of Technology (B.Tech), Information Technology, SKIT Jaipur (2019-2023) CGPA: 9.93 (Aggregrate), Senior Secondary School - SBIOA Public School, 88.2%, 2017-2019, Secondary School - SBIOA Public School, 74.1%",
             img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHjqV-cmWdF_CHkspXrTo5v0_tHydyNTo9_w",
         },
         {

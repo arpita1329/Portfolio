@@ -13,19 +13,19 @@ export default function Portfolio() {
         },
         {
             id: "web",
-            title: "Web App"
+            title: "Zomato-Landing Page"
         },
         {
             id: "mobile",
-            title: "Mobile App"
+            title: "Book API"
         },
         {
             id: "design",
-            title: "Design"
+            title: "Tasky-todo app"
         },
         {
             id: "content",
-            title: "Content"
+            title: "Movie Ticket App"
         },
     ];
 
@@ -61,7 +61,7 @@ export default function Portfolio() {
             </ul>
             <div className="container">
                 {data.map((d) => (
-                    <div className="item">
+                    <div className="item" onClick={() => window.open(d.link,"_blank")}>
                         <img src={d.img} alt="" />
                         <h3>{d.title}</h3>
                     </div>
