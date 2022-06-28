@@ -15,17 +15,24 @@ export default function Works() {
         },
         {
             id: "2",
-            icon: "assets/globe.jpg",
-            title: "Mobile Application",
-            desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, debitis quasi temporibus fuga repellendus quos recusandae, odio laboriosam quam commodi fugit tempore porro ipsa voluptatum est provident et reiciendis cumque!",
-            img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1QRtDv1PfEpZVmQlki9VH2-ECScaNHXUPdQ&usqp=CAU",
+            icon: "assets/strengths.jpg",
+            title: "Strengths",
+            desc: "Responsible, committed and enthusiastic Full Stack Developer with a done-on-time & brilliant quality product spirit, and skills from many courses in Web Development. Committed to collaborative and teamwork with independent thinking skills and self awareness.",
+            img: "https://www.sampleposts.com/wp-content/uploads/2020/09/Strength-Quotes.jpg",
         },
         {
             id: "3",
             icon: "assets/writing.png",
-            title: "Branding",
-            desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, debitis quasi temporibus fuga repellendus quos recusandae, odio laboriosam quam commodi fugit tempore porro ipsa voluptatum est provident et reiciendis cumque!",
-            img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIlXYAYUF_D_otOsGB1qvOdCUyqMI2Mf_23Q&usqp=CAU",
+            title: "Certificates",
+            desc: "Intern at ShapeAi as a Full Stack Web Developer in June 2021 - August 2021. Also done intership from Learn & Build in June 2022 - July 2022. Interviewed at Amazon Wow for Software Developer. Also cleared InfyTq coding exam. ",
+            img: "https://cdn.searchenginejournal.com/wp-content/uploads/2021/12/google-career-certificates-61bd445f96b29-sej-1520x800.png",
+        },
+        {
+            id: "4",
+            icon: "assets/frameworks.jpg",
+            title: "Tools & Frameworks",
+            desc: "React, Bootstrap4, Node, Express, MongoDB",
+            img: "https://149695847.v2.pressablecdn.com/wp-content/uploads/2019/11/Screenshot-2019-11-20-at-11.48.13-AM.png",
         },
     ];
 
@@ -46,7 +53,7 @@ export default function Works() {
                                 </div>
                                 <h2>{d.title}</h2>
                                 <p>{d.desc}</p>
-                                <span>Projects</span>
+                                <a href="#portfolio">Projects</a>
                             </div>
                         </div>
                         <div className="right">
