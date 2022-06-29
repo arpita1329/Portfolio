@@ -5,45 +5,41 @@ export default function Testimonials() {
     const data = [
         {
             id: 1,
-            name: "Alex",
-            title: "CEO of Pic Hub",
-            img: "https://images.unsplash.com/photo-1536063211352-0b94219f6212?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmVhdXRpZnVsJTIwZ2lybHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            name: "Programming Languages",
+            img: "https://images.ctfassets.net/mrop88jh71hl/60N2q8kDv42gi9xNIaSYJU/dacbb854f1f5e124643041f99e5f5c00/best-coding-languages-for-kids.jpeg?w=1024&h=684&fl=progressive&q=100&fm=jpg",
             icon: "assets/linkedin.png",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa voluptatum hic, repellendus ducimus acc",
+            desc: "C, C++, Java, Python (basic), JavaScript, HTML5, CSS3",
             featured: false
         },
         {
             id: 2,
-            name: "Martin Luther",
-            title: "CEO of ALBI",
-            img: "https://images.unsplash.com/photo-1536063211352-0b94219f6212?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmVhdXRpZnVsJTIwZ2lybHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            name: "NodeJs",
+            img: "https://images.ctfassets.net/aq13lwl6616q/7cS8gBoWulxkWNWEm0FspJ/c7eb42dd82e27279307f8b9fc9b136fa/nodejs_cover_photo_smaller_size.png?w=700&fm=webp",
             icon: "assets/linkedin.png",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa voluptatum hic, repellendus ducimus acc",
+            desc: "Node.js is an open source server environment. Node.js allows us to run JavaScript on the server.",
             featured: false
         },
         {
             id: 3,
-            name: "Sam Dsouza",
-            title: "CEO of Amaze",
-            img: "https://images.unsplash.com/photo-1536063211352-0b94219f6212?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmVhdXRpZnVsJTIwZ2lybHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            name: "React",
+            img: "https://www.freecodecamp.org/news/content/images/2021/06/Ekran-Resmi-2019-11-18-18.08.13.png",
             icon: "assets/linkedin.png",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa voluptatum hic, repellendus ducimus acc",
+            desc: "React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. ",
             featured: false
         },
         {
             id: 4,
-            name: "Sam Dsouza",
-            title: "CEO of Amaze",
-            img: "https://images.unsplash.com/photo-1536063211352-0b94219f6212?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmVhdXRpZnVsJTIwZ2lybHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+            name: "MongoDB",
+            img: "https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png",
             icon: "assets/linkedin.png",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa voluptatum hic, repellendus ducimus acc",
+            desc: "MongoDB is an open-source document database and leading NoSQL database. MongoDB is written in C++.  ",
             featured: false
         },
         
     ];
     return (
         <div className="testimonials" id="testimonials">
-            <h1>Testimonials</h1>
+            <h1>Skills</h1>
             <div className="container">
                 {data.map(d=> (
                   <div className={d.featured ? "card featured" : "card"}>
@@ -59,7 +55,7 @@ export default function Testimonials() {
                     <div className="center">{d.desc}</div>
                     <div className="bottom">
                         <h3>{d.name}</h3>
-                        <h4>{d.title}</h4>
+                        
                     </div>
                   </div>
                 ))}

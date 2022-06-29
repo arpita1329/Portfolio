@@ -101,7 +101,7 @@
                 background-color: rgb(250, 244, 245);
 
                 @include mobile{
-                    font-size: 12px;
+                    display: none;
                     padding: 5px;
                 }
             }
@@ -116,15 +116,10 @@
 
                     @include mobile{
                         font-size: 14px;
+                        margin: 2px;
                     }
                 }
-                h4{
-                    color: rgb(121, 116, 116);
-
-                    @include mobile{
-                        font-size: 13px;
-                    }
-                }
+                
             }
         }
     }

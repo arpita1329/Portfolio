@@ -15,9 +15,15 @@
         img{
             height: 80%;
             border-radius: 3px;
+            margin-left: 80px;
+            margin-top: 80px;
             
             @include mobile{
-                align-items: center;
+                
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
             }
         }
     }
