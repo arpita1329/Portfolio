@@ -1,5 +1,5 @@
 import "./navbar.scss";
-import { Person, Mail, LinkedIn} from "@material-ui/icons";
+import { Person, Mail, LinkedIn, GitHub} from "@material-ui/icons";
 
 export default function Navbar({ menuOpen, setMenuOpen }) {
     return (
@@ -18,6 +18,10 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
                     <div className="itemContainer">
                         <LinkedIn className="icon" />
                         <span onClick={() => window.open("https://www.linkedin.com/in/arpita-dubey1329/","_blank")}>Arpita Dubey</span>
+                    </div>
+                    <div className="itemContainer">
+                        <GitHub className="icon" />
+                        <span onClick={() => window.open("https://github.com/arpita1329","_blank")}>Arpita Dubey</span>
                     </div>
                 </div>
                 <div className="right">
